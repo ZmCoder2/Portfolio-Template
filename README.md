@@ -37,7 +37,8 @@ WHEN I resize the page or view the site on various screens and devices
 THEN I am presented with a responsive layout that adapts to my viewport
 ```
 
-* The URL of the deployed application.
+## URL
+https://zmcoder2.github.io/Portfolio-Template/
 
 * The URL of the GitHub repository that contains your code. Give the repository a unique name and include a README file that describes the project.
 
