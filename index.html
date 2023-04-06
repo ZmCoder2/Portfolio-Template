@@ -1,56 +1,115 @@
 <!DOCTYPE html>
-<html lang="en">
-    <head>
-        <meta charset="UTF-8"/>
-        <meta name="viewport" content="width=device-width, initial-scale1.0"/>
-        <title>Zack Miller Portfolio</title>
-        <link rel="stylesheet" href="
-    </head>
+<html lang="en-us">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>Portfolio Challenge</title>
+    <link rel="stylesheet" href="./assets/css/style.css" />
+</head>
+
+<Body>
+    <header>
+        <!-- the h1 displays the name the persons portfolio "Lernantino" -->
+        <h1 id="h1">Lernantino</h1>
+        <!-- The nav element indicates that these are the navigation links to navigate though the different sections
+        of the portfolio-->
+        <nav class="nav">
+            <ul>
+                <li>
+                    <!-- Added navigation links for my portfolio to access information about the person, their work,
+                            contact information, and their resume-->
+                    <a class="link" href="#about">About Me</a>
+                    <a class="link" href="#work">My Work</a>
+                    <a class="link" href="#contact">Contact Me</a>
+                    <a class="link" href="#resume">Resume</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- The img src displays the background image at the top of the page -->
+    <img src="./assets/codedesign.jpeg" alt="code design" class="hero-image">
+    <!-- The h2 element displays the "Cool subtitle here!" within the background image. -->
+    <ul>
+        <h2 class="subtitle">Cool subtitle here!</h2>
+    </ul>
+
+    <!-- This section element displays the About Me section within the portfolio -->
+    <section class="about" id="about">
+        <!-- The aside element indicates that the h1 element About Me will be on the left side of the portfolio -->
+        <aside class="left">
+            <h1>About Me</h1>
+        </aside>
+        <!-- the div tag with the class attribute helps indicate that the paragraph will be on the right side of the portfolio -->
+        <div class="right">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione repudiandae beatae eveniet molestias
+                rerum optio iusto aperiam minus nemo? Impedit ratione laboriosam tenetur, sapiente, veritatis distinctio
+                pariatur est eligendi eveniet nemo quaerat dolore dolorum quis odit? Ex quasi maxime rem hic
+                exercitationem repellat totam ipsam quibusdam enim a, similique alias iste repellendus consectetur nam
+                tempora minima fugiat adipisci quisquam quod repudiandae porro est debitis veniam! Exercitationem!</p>
+        </div>
+    </section>
+
+    <!-- This section elements presents the My Work section of the portfolio. -->
+    <section class="work" id="work">
+        <!-- The aside element with the class attribute left indicates that the h1 element My Work will be displayed on the left side  -->
+        <aside class="left">
+            <h1>My Work</h1>
+        </aside>
+        <!-- The div tag shows images of the Lernantino's work with images that highlight when the mouse hovers over the image displayed-->
+        <div class="right">
+            <div class="firstPic">
+                <img src="./assets/ocean-waves.jpeg" alt="ocean waves">
+                <h3>Surf Report<p>MERN Stack</p>
+                </h3>
+            </div>
+            <div class="grid" id="workPics">
+                <div class="secondPic">
+                    <img src="./assets/LED.jpeg" alt="LED Wall">
+                    <h3>LED Wall<p>Node/IoT</p>
+                    </h3>
+                </div>
+                <div class="thirdPic">
+                    <img src="./assets/computer.jpeg" alt="Computer">
+                    <h3>Calculator<p>React/JavaScript/CSS</p>
+                    </h3>
+                </div>
+                <div>
+                    <img src="./assets/tech.jpeg" alt="Technology">
+                    <h3>Pastel Puzzels<p>MERN Stack</p>
+                    </h3>
+                </div>
+                <div>
+                    <img src="./assets/ocean-waves.jpeg" alt="ocean waves">
+                    <h3>Run Buddy<p>HTML/CSS</p>
+                    </h3>
+                </div>
+
+            </div>
+
+        </div>
+    </section>
+
+    <!-- This section shows the user Lernantino's contact information on how to reach him via
+    phone number, email, GitHub profile, Twitter profile, and Spotify account -->
+    <section class="contact" id="contact">
+        <!-- The aside element indicates that the h1 element Contact Me is on the left side of the portfolio -->
+        <aside class="left">
+            <h1>Contact Me</h1>
+        </aside>
+        <!-- The div tag has all of the links to access Lernantino's contact information -->
+        <div class="right">
+            <a class="info" href="#phoneNumber">555.555.5555</a>
+            <a class="info" href="#email">lernantino@websi.com</a>
+            <a class="info" href="Github profile">GitHub</a>
+            <a class="info" href="Twitter profile">Twitter</a> 
+            <a class="info" href="#Spotify account">Spotify</a> 
+        </div>
+    </section>
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+</Body>
 
 </html>

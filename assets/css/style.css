@@ -1,1 +1,174 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
 
+/* Gives the Portfolio body element the background white */
+body {
+    background: white;
+}
+
+/* This gives the header element a dark grayish blue color */
+header {
+    background: #23303E;
+}
+
+/* The #h1 connects with the id attribute to display "Lernantino" at the top left of the page 
+the id gives the h1 element a font with a light blue background only around the text*/
+#h1 {
+    padding: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #23303E;
+    background-color: #83E0F4;
+    position: relative;
+    width: fit-content;
+    font-size: 50px;
+}
+
+/* The class attribute displays the background image under the header and nav
+links at the top */
+.hero-image {
+    height: 200px;
+    width: 100%;
+}
+
+/* This class attribute links to the nav links at the top right of the portfolio with the header */
+.nav {
+    text-align: right;
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-right: 50px;
+    bottom: 200px;
+    position: relative;
+    display: inline;
+    bottom: 35px;
+}
+
+
+/* This class attribute gives the links at the top right the light blue color and spacing between 
+each link */
+.link {
+    color: #83E0F4;
+    margin: 10px;
+}
+
+/* The class attribute positions "Cool subtitle here!" in the right corner of the background-image
+with Arial font with a light blue background around the text*/
+.subtitle {
+    float: right;
+    position: relative;
+    right: 30px;
+    bottom: 50px;
+    padding: 0 5px;
+    width: fit-content;
+    background-color: #83E0F4;
+    color: #23303E;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* This class attribute contains 5 different classes but to save time it was easier to put them together
+the class attributes are used to formats the content within the section element
+to be displayed on the right side */
+.about,
+.work,
+.contact {
+    width: 100%;
+    display: flex;
+    margin: 2em 0;
+}
+
+/* This class attribute gives the headers to be presented on the left side of the page */
+.left h1 {
+    color: #23303E;
+    font-size: 30px;
+    word-break:normal;
+    padding-left: 90px;
+}
+
+/* The class attribute puts the lines between the headers and content */
+.left {
+    width: 20%;
+    text-align: right;
+    padding-right: 3%;
+    border-right: 2px solid black;
+}
+
+/* The class attribute gives space between the content and the lines in between the content and
+headers */
+.right {
+    width: 75%;
+    margin: 0 6% 0 4%;
+}
+
+/* The class attribute that gives the wave image size a position on the page */
+.firstPic img {
+    width: 89.5%;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+/* gives the images a light blue border */
+.right img {
+    border: 3px solid #83E0F4;
+}
+
+/* allows the user in My Work be shaded when the users 
+mouse hovers over*/
+.right img:hover {
+    opacity: .85;
+}
+
+/* Allows the Surf report label to show on the bottom left side of the image  */
+.right .firstPic {
+    display: inline;
+}
+/* gives the first image a label */
+.right .firstPic h3 {
+    position: relative;
+    top: -15%;
+    padding: 8px 5px;
+    background: #83E0F4;
+    color: #23303E;
+    width: 12%;
+}
+/* Gives the labels within the pages size and background color around the text */
+/* I could not figure out how to  */
+.grid h3 {
+    position: relative;
+    top: -30%;
+    padding: 5px 25px;
+    background: #83E0F4;
+    color: #23303E;
+    width: 39%;
+    font-size: 15px;
+    word-break: keep-all;
+}
+
+/* displayed the pictures like a grid */
+/* I could not figure out how to close the gap between the bottom images to the ones above them */
+.grid {
+    display: grid;
+    grid-template-columns: auto auto;
+    margin-top: -7%;
+    grid-gap: 12px;
+}
+
+/* gives the paragraph text size */
+p {
+    font-size: 12px;
+}
+
+/* sizes the images accordingly to be displayed with a good size */
+#workPics img {
+    height: 130px;
+    width: 100%;   
+}
+
+/* Gives the Contact section colored font and space between each info */
+.info {
+    margin: 10px;
+    font-size: 22px;
+    text-align: center;
+    color: #23303E;
+}
