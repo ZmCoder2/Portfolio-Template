@@ -39,8 +39,3 @@ THEN I am presented with a responsive layout that adapts to my viewport
 
 ## URL
 https://zmcoder2.github.io/Portfolio-Template/
-
-* The URL of the GitHub repository that contains your code. Give the repository a unique name and include a README file that describes the project.
-
-- - -
-© 2023 edX Boot Camps LLC. Confidential and Proprietary. All Rights Reserved.
