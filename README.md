@@ -8,6 +8,9 @@ Below the background image are the nav link content sections where it has the h1
 In the "My Work" section a user is able to see pictures that displays the Web Developers work with pictures that are labeled with what work is what. If the user wants to see more about the work they are able to hover over the picture that will shade over the picture indicating that the user is able to click on the work they want to view. Each image has borders around them to match the styling of the page.
 Lastly, the "Contact Me" section below "My Work" displays the Web Developers phone number, email, GitHub, Twitter, and Spotify. They are links so the user is able to access the Web Developers phone number, email, GitHub, Twitter, and Spotify.
 
+## Webpage
+![Screenshot 2023-05-03 at 10 54 42 PM](https://user-images.githubusercontent.com/126508376/236102284-699ae8db-7c83-4da9-acf7-7f5ff1a6fa19.png)
+![Screenshot 2023-05-03 at 10 54 59 PM](https://user-images.githubusercontent.com/126508376/236102351-26a8489e-8133-496f-958a-df8eea159222.png)
 
 ## URL
 https://zmcoder2.github.io/Portfolio-Template/
